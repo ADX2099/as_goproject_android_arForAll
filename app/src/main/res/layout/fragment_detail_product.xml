@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.list_products.ListProductFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/gris_fondo">
+
+        <ImageView
+            android:id="@+id/imgProducto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_prduct"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="iPhone X"
+                android:textColor="@color/black"
+                android:fontFamily="@font/opensans_semibold"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txtPrecio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/color_text_item_precio1"
+                android:text="$ 12,500.00"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="12dp"
+                android:gravity="right"
+
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtData1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="apple"
+                android:textColor="@color/color_text_item_title"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="12dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txtPrecio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+
+                android:text="$ 12,500.00"
+                android:textColor="@color/red_price"
+                android:fontFamily="@font/opensans_semibold"
+                android:textSize="17dp"
+                android:gravity="right"
+
+                />
+
+        </LinearLayout>
+
+        <ScrollView
+            style="@style/scrollview" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="xxxxxx"
+                android:textColor="@color/color_text_item_title"
+                android:fontFamily="@font/opensans_regular"
+                android:textSize="14dp"
+
+                />
+
+            <TextView
+                android:id="@+id/txtDondeComprar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/donde_comprar"
+                android:textColor="@color/color_text_item_title"
+                android:fontFamily="@font/opensans_semibold"
+                android:textSize="14dp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/gris_fondo"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/layWalmart"
+                    android:clickable="true"
+                    android:layout_width="129dp"
+                    android:layout_height="159dp"
+                    android:background="@drawable/cuadro_redondo"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    >
+                    <ImageView
+
+                        android:layout_width="92dp"
+                        android:layout_height="92dp"
+                        android:src="@drawable/walmart"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/walmart"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="left"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/color_text_item_precio1"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/precioWalmart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="$12,500.00"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/laySoriana"
+                    android:clickable="true"
+                    android:layout_width="129dp"
+                    android:layout_height="159dp"
+                    android:background="@drawable/cuadro_redondo"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="50dp"
+                    >
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="92dp"
+                        android:src="@drawable/soriana"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/soriana"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="left"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/color_text_item_precio1"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/precioSoriana"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="$12,500.00"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/gris_fondo"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/laySumesa"
+                    android:clickable="true"
+                    android:layout_width="129dp"
+                    android:layout_height="159dp"
+                    android:background="@drawable/cuadro_redondo"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    >
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="92dp"
+                        android:src="@drawable/sumesa"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sumesa"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="left"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/color_text_item_precio1"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/precioSumesa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="$12,500.00"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layChedraui"
+                    android:clickable="true"
+                    android:layout_width="129dp"
+                    android:layout_height="159dp"
+                    android:background="@drawable/cuadro_redondo"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="50dp"
+                    >
+                    <ImageView
+                        android:layout_width="92dp"
+                        android:layout_height="92dp"
+                        android:src="@drawable/chedraui"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chedraui"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="left"
+                        android:fontFamily="@font/opensans_regular"
+                        android:textColor="@color/color_text_item_precio1"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/precioChedraui"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:text="$12,500.00"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:textColor="@color/black"
+                        android:textSize="16dp"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:fontFamily">@font/opensans_regular</item>
+        <!-- Customize your theme here. -->
+
+    </style>
+
+
+    ////SCROLL VIEW
+
+    <style name="scrollview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+    </style>
+
+    ////BOTON Enviar
+
+    <style name="btnEnviar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/borde_redondo</item>
+
+        <item name="android:layout_marginLeft">@dimen/btn_izq_margen</item>
+        <item name="android:layout_marginRight">@dimen/btn_der_margen</item>
+        <item name="android:layout_marginTop">@dimen/btn_top_margen</item>
+
+    </style>
+
+
+    ///////////////////EDIT TEXT LOGIN
+
+    <style name="edt_Login">
+
+        <item name="android:color">@color/bckGral</item>
+        <item name="android:alpha">30</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/edt_der_margen</item>
+        <item name="android:layout_marginBottom">@dimen/edt_bottom_margen</item>
+        <item name="android:layout_marginLeft">@dimen/edt_izq_margen</item>
+        <item name="android:layout_marginTop">@dimen/edt_top_margen</item>
+        <item name="android:textSize">@dimen/edt_hint</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/borde_registro</item>
+        <item name="android:inputType">text</item>
+
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,642 @@
+-- Merging decision tree log ---
+data
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:37:17-69
+	android:scheme
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:37:23-66
+manifest
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:2:1-29:12
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:2:1-18:12
+MERGED from [com.braintreepayments:card-form:4.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-card-form-4.1.0.aar\276388fe9c466fc8a8c25d65233d919e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\26298d311228ee68385e397caabacb34\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.1.aar\fab9e8153d5aabd0670c1f5451fa26b9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\a55474ab5bdf234f11c752c5f8c1aea5\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\5ae814e83172a3a393d77b19fcb87ae2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\1dd4900c056dfe0c1315887c353dec03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\2ddd3727ea5c621838e89aa6dcddc37b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-measurement-api-16.0.1.aar\0ce53891c6f21cc36c217330fa7b4668\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\605b36d6ae35610113193c832b3c8a48\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\14b9c05965a2ad5cae0e8cc834579ca0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\f70dbe2cd24edee0bdfedd08fde3a7be\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\54a5328138c4377ba00f941c94fcbea3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\ded1c9fc256958b0c6fb8dd9b2fe7c5a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\99a80169db81bfaa4ec43fbb146306a0\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\9ebec9b841f6a250d5f337d65b6ea6fb\AndroidManifest.xml:15:1-21:12
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-sceneform-ux-1.8.0.aar\b0146f506c99fa6d95675bc1c544c1d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:assets:1.6.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\assets-1.6.0.aar\15a8a76604bfde6e03b6d497b1eddd5f\AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:2:1-14:12
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\butterknife-10.1.0.aar\0d77bdfb54e632238b864ba7d444a0c5\AndroidManifest.xml:2:1-7:12
+MERGED from [com.paypal.android.sdk:paypal-one-touch:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-3.0.0.aar\0320fc09786b4705c49cd580ccabf528\AndroidManifest.xml:2:1-13:12
+MERGED from [com.braintreepayments.api:core:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\b3fa9ef72980faf64919ace161400d4e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.braintreepayments:browser-switch:0.2.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\browser-switch-0.2.0.aar\69cb19ad10752c031761159d8b8a9575\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\67557e3dc5dac6dfb48a1c329c57e6d3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0.aar\12f02331efecc94564753eae0c62cfa7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-10.1.0.aar\f56bc866cce53b245bb8ffe7249bc705\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\6f54202f285967993d2571ae4852e066\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\4a0efc69d7ccc678e6c5da498aa3ac7a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\cbe6e2676063c9e271de30a4211ec3b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\5c7c8d704c71ae2ce2aa23a1eb29ad20\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\fe5bf7dba41a8a2370cc7f45294ed9d6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\8e2a45338e9259b0e63f5e92394d7d9f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\326f0332de05a6c5bcbd757cf6d00ab6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\f521f02c3a7dd543c881068a302231c9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\70a5eb2e0e52d3ff0423fed2f7fe70ca\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\718408d3c2a4ef7f3ee4465cec47fa59\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\5adeefef486a7d4a4d333e02e2ac1aa8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\581f563d9855ea931ac3b4479916cdcb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\0dbf2d4b8a50e7c6ce5d96c2b0e95877\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\768b8116acaf653626bb746c67bbacb9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\f6de337c1c98ffd1c7611234b6deae53\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\8a0d0c5380302d312c7a6ee8a626d69c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\ab6fcd46846eac7b9b2ed0c3c5142055\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b0df61243f03355ffe6296e96469aaa\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\94607d72ddc1b95d089601f0f5f7eade\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\1ff6d90d7baced210438f144e2a40aa8\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\763e78540524870a6f251cbd2e191767\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f346904d335f769b241f5bbf77b2aceb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a1e0fb3e5bdd11cc46406c0fc72c3c32\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\e464c863199ac792f28962195d3f1e83\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8d58f5a4875a69451fd3aae833da46aa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\882f9dd98c37dac28f59133fb164ba3a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\b0b674eb914f5af777e3d451a94f3a56\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-core-1.8.0.aar\b68884645ec203d1884c2b18ff701749\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:sceneform-base:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-sceneform-base-1.8.0.aar\7a17f935a3bb09f478d622b08d4bb54a\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:rendering:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-rendering-1.8.0.aar\8cd7783f424fa7d14fb79db79b08d422\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:filament-android:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-filament-android-1.8.0.aar\14da5861241ba46592ed57c865925627\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\5e581a796111dfbcd00fc4f5764ade2e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:17:1-46:12
+MERGED from [com.paypal.android.sdk:data-collector:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-data-collector-3.0.0.aar\9486cc123d41978c19db48ea53c86f83\AndroidManifest.xml:2:1-13:12
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+	package
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:1-54:12
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:13:5-67
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:13:5-67
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:12:5-67
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:23:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-3.0.0.aar\0320fc09786b4705c49cd580ccabf528\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:paypal-one-touch:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-3.0.0.aar\0320fc09786b4705c49cd580ccabf528\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:data-collector:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-data-collector-3.0.0.aar\9486cc123d41978c19db48ea53c86f83\AndroidManifest.xml:11:5-67
+MERGED from [com.paypal.android.sdk:data-collector:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-data-collector-3.0.0.aar\9486cc123d41978c19db48ea53c86f83\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:12:5-79
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:12:5-79
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:11:5-79
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:11:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:9:22-72
+uses-feature#android.hardware.camera.ar
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:10:5-86
+	android:required
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:10:61-84
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:10:19-60
+application
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:12:5-52:19
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:15:5-27:19
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:15:5-27:19
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:14:5-16:19
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:14:5-16:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\26298d311228ee68385e397caabacb34\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\26298d311228ee68385e397caabacb34\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\a55474ab5bdf234f11c752c5f8c1aea5\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\a55474ab5bdf234f11c752c5f8c1aea5\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\2ddd3727ea5c621838e89aa6dcddc37b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\2ddd3727ea5c621838e89aa6dcddc37b\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-measurement-api-16.0.1.aar\0ce53891c6f21cc36c217330fa7b4668\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-measurement-api-16.0.1.aar\0ce53891c6f21cc36c217330fa7b4668\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\605b36d6ae35610113193c832b3c8a48\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\605b36d6ae35610113193c832b3c8a48\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\14b9c05965a2ad5cae0e8cc834579ca0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\14b9c05965a2ad5cae0e8cc834579ca0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\f70dbe2cd24edee0bdfedd08fde3a7be\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\f70dbe2cd24edee0bdfedd08fde3a7be\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\54a5328138c4377ba00f941c94fcbea3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\54a5328138c4377ba00f941c94fcbea3\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\ded1c9fc256958b0c6fb8dd9b2fe7c5a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\ded1c9fc256958b0c6fb8dd9b2fe7c5a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:7:5-12:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\8a0d0c5380302d312c7a6ee8a626d69c\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\8a0d0c5380302d312c7a6ee8a626d69c\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b0df61243f03355ffe6296e96469aaa\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b0df61243f03355ffe6296e96469aaa\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\5e581a796111dfbcd00fc4f5764ade2e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\5e581a796111dfbcd00fc4f5764ade2e\AndroidManifest.xml:7:5-20
+MERGED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:30:5-44:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\8a0d0c5380302d312c7a6ee8a626d69c\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:15:9-41
+	tools:ignore
+		ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:17:9-39
+	android:roundIcon
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:18:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:19:9-44
+activity#com.alpha.productscanner.ui.paypal.PayPalActivity
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:20:9-71
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:20:19-59
+service#com.alpha.productscanner.service.MFirebaseMessagingService
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:22:9-26:19
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:22:18-67
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:23:13-25:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:24:17-78
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:24:25-75
+activity#com.braintreepayments.api.BraintreeBrowserSwitchActivity
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:28:9-39:20
+	android:launchMode
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:29:13-84
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:com.alpha.productscanner.braintree
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:31:13-38:29
+action#android.intent.action.VIEW
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:34:17-76
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:34:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:35:17-78
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:35:27-75
+activity#com.alpha.productscanner.ui.Registro.RegistroActivity
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:40:9-66
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:40:19-63
+activity#com.alpha.productscanner.ui.login.LoginActivity
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:41:9-60
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:41:19-57
+activity#com.alpha.productscanner.ui.splash.SplashActivity
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:42:9-48:20
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:42:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:46:27-74
+activity#com.alpha.productscanner.ui.main.MainActivity
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:49:9-58
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:49:19-55
+activity#com.alpha.productscanner.ui.ar.ArActivity
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:50:9-54
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:50:19-51
+meta-data#com.google.ar.core
+ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:51:9-80
+	android:value
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:51:54-78
+	android:name
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml:51:20-53
+uses-sdk
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:card-form:4.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-card-form-4.1.0.aar\276388fe9c466fc8a8c25d65233d919e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:card-form:4.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-card-form-4.1.0.aar\276388fe9c466fc8a8c25d65233d919e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\26298d311228ee68385e397caabacb34\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\26298d311228ee68385e397caabacb34\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.1.aar\fab9e8153d5aabd0670c1f5451fa26b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.1.aar\fab9e8153d5aabd0670c1f5451fa26b9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\a55474ab5bdf234f11c752c5f8c1aea5\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\constraintlayout-1.1.3.aar\a55474ab5bdf234f11c752c5f8c1aea5\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\5ae814e83172a3a393d77b19fcb87ae2\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\multidex-2.0.0.aar\5ae814e83172a3a393d77b19fcb87ae2\AndroidManifest.xml:20:5-43
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\1dd4900c056dfe0c1315887c353dec03\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\1dd4900c056dfe0c1315887c353dec03\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\2ddd3727ea5c621838e89aa6dcddc37b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\2ddd3727ea5c621838e89aa6dcddc37b\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-measurement-api-16.0.1.aar\0ce53891c6f21cc36c217330fa7b4668\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-measurement-api-16.0.1.aar\0ce53891c6f21cc36c217330fa7b4668\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\605b36d6ae35610113193c832b3c8a48\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-interop-16.0.1.aar\605b36d6ae35610113193c832b3c8a48\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\14b9c05965a2ad5cae0e8cc834579ca0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\14b9c05965a2ad5cae0e8cc834579ca0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\f70dbe2cd24edee0bdfedd08fde3a7be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-17.0.1.aar\f70dbe2cd24edee0bdfedd08fde3a7be\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\54a5328138c4377ba00f941c94fcbea3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-stats-16.0.1.aar\54a5328138c4377ba00f941c94fcbea3\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\ded1c9fc256958b0c6fb8dd9b2fe7c5a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-ads-identifier-15.0.1.aar\ded1c9fc256958b0c6fb8dd9b2fe7c5a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\99a80169db81bfaa4ec43fbb146306a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\99a80169db81bfaa4ec43fbb146306a0\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\9ebec9b841f6a250d5f337d65b6ea6fb\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\9ebec9b841f6a250d5f337d65b6ea6fb\AndroidManifest.xml:19:5-43
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-sceneform-ux-1.8.0.aar\b0146f506c99fa6d95675bc1c544c1d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-sceneform-ux-1.8.0.aar\b0146f506c99fa6d95675bc1c544c1d2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:assets:1.6.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\assets-1.6.0.aar\15a8a76604bfde6e03b6d497b1eddd5f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:assets:1.6.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\assets-1.6.0.aar\15a8a76604bfde6e03b6d497b1eddd5f\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\butterknife-10.1.0.aar\0d77bdfb54e632238b864ba7d444a0c5\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife:10.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\butterknife-10.1.0.aar\0d77bdfb54e632238b864ba7d444a0c5\AndroidManifest.xml:5:5-44
+MERGED from [com.paypal.android.sdk:paypal-one-touch:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-3.0.0.aar\0320fc09786b4705c49cd580ccabf528\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:paypal-one-touch:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\paypal-one-touch-3.0.0.aar\0320fc09786b4705c49cd580ccabf528\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\b3fa9ef72980faf64919ace161400d4e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:core:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-3.0.0.aar\b3fa9ef72980faf64919ace161400d4e\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:browser-switch:0.2.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\browser-switch-0.2.0.aar\69cb19ad10752c031761159d8b8a9575\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments:browser-switch:0.2.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\browser-switch-0.2.0.aar\69cb19ad10752c031761159d8b8a9575\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\67557e3dc5dac6dfb48a1c329c57e6d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\67557e3dc5dac6dfb48a1c329c57e6d3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0.aar\12f02331efecc94564753eae0c62cfa7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\exifinterface-1.0.0.aar\12f02331efecc94564753eae0c62cfa7\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-10.1.0.aar\f56bc866cce53b245bb8ffe7249bc705\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton:butterknife-runtime:10.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\butterknife-runtime-10.1.0.aar\f56bc866cce53b245bb8ffe7249bc705\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\6f54202f285967993d2571ae4852e066\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\6f54202f285967993d2571ae4852e066\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\4a0efc69d7ccc678e6c5da498aa3ac7a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\4a0efc69d7ccc678e6c5da498aa3ac7a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\cbe6e2676063c9e271de30a4211ec3b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\cbe6e2676063c9e271de30a4211ec3b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\5c7c8d704c71ae2ce2aa23a1eb29ad20\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\5c7c8d704c71ae2ce2aa23a1eb29ad20\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\fe5bf7dba41a8a2370cc7f45294ed9d6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\fe5bf7dba41a8a2370cc7f45294ed9d6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\8e2a45338e9259b0e63f5e92394d7d9f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\8e2a45338e9259b0e63f5e92394d7d9f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\326f0332de05a6c5bcbd757cf6d00ab6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\326f0332de05a6c5bcbd757cf6d00ab6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\f521f02c3a7dd543c881068a302231c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\f521f02c3a7dd543c881068a302231c9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\70a5eb2e0e52d3ff0423fed2f7fe70ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\70a5eb2e0e52d3ff0423fed2f7fe70ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\718408d3c2a4ef7f3ee4465cec47fa59\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\718408d3c2a4ef7f3ee4465cec47fa59\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\5adeefef486a7d4a4d333e02e2ac1aa8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\5adeefef486a7d4a4d333e02e2ac1aa8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\581f563d9855ea931ac3b4479916cdcb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\581f563d9855ea931ac3b4479916cdcb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\0dbf2d4b8a50e7c6ce5d96c2b0e95877\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\0dbf2d4b8a50e7c6ce5d96c2b0e95877\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\768b8116acaf653626bb746c67bbacb9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.1.aar\768b8116acaf653626bb746c67bbacb9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\f6de337c1c98ffd1c7611234b6deae53\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\f6de337c1c98ffd1c7611234b6deae53\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\8a0d0c5380302d312c7a6ee8a626d69c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\8a0d0c5380302d312c7a6ee8a626d69c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\ab6fcd46846eac7b9b2ed0c3c5142055\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\ab6fcd46846eac7b9b2ed0c3c5142055\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b0df61243f03355ffe6296e96469aaa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\3b0df61243f03355ffe6296e96469aaa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\94607d72ddc1b95d089601f0f5f7eade\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\94607d72ddc1b95d089601f0f5f7eade\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\1ff6d90d7baced210438f144e2a40aa8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\1ff6d90d7baced210438f144e2a40aa8\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\763e78540524870a6f251cbd2e191767\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\763e78540524870a6f251cbd2e191767\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f346904d335f769b241f5bbf77b2aceb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f346904d335f769b241f5bbf77b2aceb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a1e0fb3e5bdd11cc46406c0fc72c3c32\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\a1e0fb3e5bdd11cc46406c0fc72c3c32\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\e464c863199ac792f28962195d3f1e83\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\e464c863199ac792f28962195d3f1e83\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8d58f5a4875a69451fd3aae833da46aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8d58f5a4875a69451fd3aae833da46aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\882f9dd98c37dac28f59133fb164ba3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\882f9dd98c37dac28f59133fb164ba3a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\b0b674eb914f5af777e3d451a94f3a56\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\b0b674eb914f5af777e3d451a94f3a56\AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-core-1.8.0.aar\b68884645ec203d1884c2b18ff701749\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-core-1.8.0.aar\b68884645ec203d1884c2b18ff701749\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-sceneform-base-1.8.0.aar\7a17f935a3bb09f478d622b08d4bb54a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-sceneform-base-1.8.0.aar\7a17f935a3bb09f478d622b08d4bb54a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-rendering-1.8.0.aar\8cd7783f424fa7d14fb79db79b08d422\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-rendering-1.8.0.aar\8cd7783f424fa7d14fb79db79b08d422\AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:filament-android:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-filament-android-1.8.0.aar\14da5861241ba46592ed57c865925627\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-filament-android-1.8.0.aar\14da5861241ba46592ed57c865925627\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\5e581a796111dfbcd00fc4f5764ade2e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\5e581a796111dfbcd00fc4f5764ade2e\AndroidManifest.xml:5:5-44
+MERGED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:26:5-28:41
+MERGED from [com.paypal.android.sdk:data-collector:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-data-collector-3.0.0.aar\9486cc123d41978c19db48ea53c86f83\AndroidManifest.xml:7:5-9:41
+MERGED from [com.paypal.android.sdk:data-collector:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-data-collector-3.0.0.aar\9486cc123d41978c19db48ea53c86f83\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		ADDED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+		INJECTED from D:\projects\as_goproject_android_arForAll\app\src\main\AndroidManifest.xml
+activity#com.braintreepayments.api.dropin.DropInActivity
+ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:18:9-20:64
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:20:13-61
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:19:13-75
+activity#com.braintreepayments.api.dropin.AddCardActivity
+ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:21:9-23:65
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:23:13-62
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:22:13-76
+activity#com.braintreepayments.api.dropin.VaultManagerActivity
+ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:24:9-26:70
+	android:theme
+		ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:26:13-67
+	android:name
+		ADDED from [com.braintreepayments.api:drop-in:4.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-drop-in-4.1.1.aar\75379eb1eb2499550fb28970db7a94c6\AndroidManifest.xml:25:13-81
+service#com.braintreepayments.api.internal.AnalyticsIntentService
+ADDED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:15:9-93
+	android:name
+		ADDED from [com.braintreepayments.api:braintree:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-braintree-3.0.0.aar\51a54af636fc0edcbdd52fb17eda80b9\AndroidManifest.xml:15:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.5.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-messaging-17.5.0.aar\034fa746a78631baadcfa7d106d24865\AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-measurement-connector-impl-17.0.1.aar\a56035b45b0c63dcc15b025e2a422259\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-impl-16.2.1.aar\08e4d780829058b149e7a4787d689a58\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-analytics-16.0.3.aar\e104df62fed975620b8e21b1f622c997\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.1.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-iid-17.1.1.aar\e2c864a11c04124b69ed8c212b74d988\AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-firebase-common-16.1.0.aar\9e71eaf7a3394ec9ec6becc06e8c6795\AndroidManifest.xml:13:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\2b1b9dfc546a230f18b7d418f60d6728\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\5a2ac5a4838d39f369e370283fafa000\AndroidManifest.xml:24:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-picasso-2.71828.aar\5f72976883a47cf0412307ae28aa6784\AndroidManifest.xml:9:13-64
+activity#com.braintreepayments.api.GooglePaymentActivity
+ADDED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:12:9-14:62
+	android:theme
+		ADDED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:14:13-59
+	android:name
+		ADDED from [com.braintreepayments.api:google-payment:3.0.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\jetified-google-payment-3.0.0.aar\d77e407901aa162477d12684177fc2f3\AndroidManifest.xml:13:13-75
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:33:9-35:41
+	android:value
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:35:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:34:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:37:9-43:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:40:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:42:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.8.0] C:\Users\daxis\.gradle\caches\transforms-1\files-1.1\core-1.8.0.aar\ba04af46d1ba67ce6b14d1c7877bc85b\AndroidManifest.xml:38:13-62

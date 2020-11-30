@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bckGral"
+    android:orientation="vertical"
+
+    >
+
+    <ScrollView
+        style="@style/scrollview" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/logoalphagrande"
+            android:scaleType="centerInside"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/registro_top_margen"
+            android:layout_marginLeft="@dimen/login_left_margen"
+            android:layout_marginRight="@dimen/login_left_margen"
+
+            />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="@dimen/login_edt_width"
+            android:layout_height="@dimen/login_edt_height"
+            style="@style/edt_Login"
+            android:layout_marginLeft="@dimen/login_left_margen"
+            android:layout_marginRight="@dimen/login_left_margen"
+            android:layout_marginTop="@dimen/registro_edt_top"
+            android:hint="@string/hintNombre"
+            android:fontFamily="@font/opensans_semibold"
+
+
+            />
+
+        <EditText
+            android:layout_width="@dimen/login_edt_width"
+            android:layout_height="@dimen/login_edt_height"
+            style="@style/edt_Login"
+            android:id="@+id/edtApellido"
+            android:layout_marginLeft="@dimen/login_left_margen"
+            android:layout_marginRight="@dimen/login_left_margen"
+            android:layout_marginTop="@dimen/login_pwd_top"
+            android:hint="@string/hintApellido"
+            android:fontFamily="@font/opensans_semibold"
+
+            />
+
+
+        <EditText
+            android:layout_width="@dimen/login_edt_width"
+            android:layout_height="@dimen/login_edt_height"
+            style="@style/edt_Login"
+            android:id="@+id/edtTelefono"
+            android:layout_marginLeft="@dimen/login_left_margen"
+            android:layout_marginRight="@dimen/login_left_margen"
+            android:layout_marginTop="@dimen/login_pwd_top"
+            android:hint="@string/hintTelefono"
+            android:fontFamily="@font/opensans_semibold"
+            />
+
+
+
+        <EditText
+            android:layout_width="@dimen/login_edt_width"
+            android:layout_height="@dimen/login_edt_height"
+            style="@style/edt_Login"
+            android:id="@+id/edtEmail"
+            android:layout_marginLeft="@dimen/login_left_margen"
+            android:layout_marginRight="@dimen/login_left_margen"
+            android:layout_marginTop="@dimen/login_pwd_top"
+            android:hint="@string/hintEmail"
+            android:fontFamily="@font/opensans_semibold"
+
+            />
+
+        <EditText
+            android:layout_width="@dimen/login_edt_width"
+            android:layout_height="@dimen/login_edt_height"
+            style="@style/edt_Login"
+            android:id="@+id/edtPwd"
+            android:layout_marginLeft="@dimen/login_left_margen"
+            android:layout_marginRight="@dimen/login_left_margen"
+            android:layout_marginTop="@dimen/login_pwd_top"
+            android:hint="@string/hintPwd"
+            android:fontFamily="@font/opensans_semibold"
+            android:inputType="textPassword"
+
+            />
+
+        <Button
+            style="@style/btnEnviar"
+            android:text="@string/txtLoginRegistro"
+            android:id="@+id/btnRegistro"
+
+            android:textColor="@color/bckGral"
+            android:layout_width="@dimen/login_btn_width"
+            android:layout_height="@dimen/login_btn_height"
+            android:fontFamily="@font/opensans_semibold"
+            android:textSize="@dimen/login_txt_size"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

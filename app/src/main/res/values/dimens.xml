@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    //// REGISTRO MARGENES
+
+    <dimen name="register_txt_left">280dp</dimen>
+    <dimen name="registro_top_margen">50dp</dimen>
+    <dimen name="registro_edt_top">55dp</dimen>
+    <dimen name="registro_txtIngresar_top">15dp</dimen>
+
+///LOGIN MARGENES
+    <dimen name="login_top_margen">100dp</dimen>
+
+    <dimen name="login_left_margen">31dp</dimen>
+    <dimen name="login_edt_left">17dp</dimen>
+    <dimen name="login_edt_top">40dp</dimen>
+    <dimen name="login_edt_height">60dp</dimen>
+    <dimen name="login_edt_width">341dp</dimen>
+    <dimen name="login_pwd_top">17dp</dimen>
+    <dimen name="login_txt_left">120dp</dimen>
+    <dimen name="login_txt_size">20sp</dimen>
+    <dimen name="login_txt_margen">35dp</dimen>
+
+/////TEXTO
+
+
+    <dimen name="txt_letra">25sp</dimen>
+    <dimen name="txt_izq_margen">40dp</dimen>
+    <dimen name="txt_der_margen">20dp</dimen>
+    <dimen name="txt_bottom_margen">35dp</dimen>
+    <dimen name="txt_espacio">10dp</dimen>
+    <dimen name="txt_top_margen">20dp</dimen>
+
+
+////TITULO
+
+    <dimen name="txt_titulo">60sp</dimen>
+    <dimen name="izq_margen_titulo">75dp</dimen>
+    <dimen name="top_margen_titulo">30dp</dimen>
+    <dimen name="bottom_margen_titulo">15dp</dimen>
+    <dimen name="der_margen_titulo">50dp</dimen>
+
+/////CHECKBOX TEXT
+
+
+
+    <dimen name="txt_letrac">20sp</dimen>
+    <dimen name="txt_izq_margenc">40dp</dimen>
+    <dimen name="txt_der_margenc">20dp</dimen>
+    <dimen name="txt_bottom_margenc">35dp</dimen>
+    <dimen name="txt_espacioc">10dp</dimen>
+    <dimen name="txt_top_margenc">20dp</dimen>
+
+
+///EDIT TEXT
+    <dimen name="edt_bottom_margen">25dp</dimen>
+    <dimen name="edt_der_margen">20dp</dimen>
+    <dimen name="edt_top_margen"></dimen>
+    <dimen name="edt_hint">20sp</dimen>
+    <dimen name="edt_espacio">10dp</dimen>
+    <dimen name="edt_izq_margen">12dp</dimen>
+
+
+///////BOTON LOGIN
+
+    <dimen name="btn_top_margen">15dp</dimen>
+    <dimen name="btn_der_margen">30dp</dimen>
+    <dimen name="btn_bottom_margen">50dp</dimen>
+    <dimen name="btn_size">25sp</dimen>
+    <dimen name="btn_izq_margen">30dp</dimen>
+    <dimen name="login_btn_width">341dp</dimen>
+    <dimen name="login_btn_height">54dp</dimen>
+
+
+///////BOTON REGISTRO
+
+
+
+    <dimen name="btndos_bottom_margen">50dp</dimen>
+    <dimen name="btndos_top_margen"></dimen>
+
+
+
+
+
+
+//////BORDE REDONDO BOTON
+
+    <dimen name="btnr_radius">4px</dimen>
+    <dimen name="btnr_width">1dp</dimen>
+    <dimen name="btnr_padding_left">1dp</dimen>
+    <dimen name="btnr_padding_right">1dp</dimen>
+    <dimen name="btnr_padding_top">1dp</dimen>
+    <dimen name="btnr_padding_bottom">1dp</dimen>
+
+    <dimen name="btnlog_radius">65px</dimen>
+
+
+    //////BORDE REDONDO BOTON
+
+    <dimen name="btnr_cuadro_radius">15px</dimen>
+    <dimen name="btnr_cuadro_width">3dp</dimen>
+    <dimen name="btnr_cuadro_padding_left">1dp</dimen>
+    <dimen name="btnr_cuadro_padding_right">1dp</dimen>
+    <dimen name="btnr_cuadro_padding_top">1dp</dimen>
+    <dimen name="btnr_cuadro_padding_bottom">1dp</dimen>
+
+
+
+
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bckGral"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logoalphagrande"
+        android:scaleType="centerInside"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/login_top_margen"
+        android:layout_marginLeft="@dimen/login_left_margen"
+        android:layout_marginRight="@dimen/login_left_margen"
+
+        />
+
+    <EditText
+        android:id="@+id/edtUsuario"
+        android:layout_width="@dimen/login_edt_width"
+        android:layout_height="@dimen/login_edt_height"
+        style="@style/edt_Login"
+        android:layout_marginLeft="@dimen/login_left_margen"
+        android:layout_marginRight="@dimen/login_left_margen"
+        android:layout_marginTop="@dimen/login_edt_top"
+        android:hint="Correo electrónico"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="admin@gmail.com"
+
+
+        />
+
+    <EditText
+        android:layout_width="@dimen/login_edt_width"
+        android:layout_height="@dimen/login_edt_height"
+        style="@style/edt_Login"
+        android:id="@+id/edtPassword"
+        android:layout_marginLeft="@dimen/login_left_margen"
+        android:layout_marginRight="@dimen/login_left_margen"
+        android:layout_marginTop="@dimen/login_pwd_top"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:fontFamily="@font/opensans_semibold"
+        android:text="12345678"
+
+        />
+
+    <Button
+        style="@style/btnEnviar"
+        android:id="@+id/btnIngresar"
+        android:text="@string/lblBtnLogin"
+        android:textColor="@color/bckGral"
+        android:layout_width="@dimen/login_btn_width"
+        android:layout_height="@dimen/login_btn_height"
+        android:fontFamily="@font/opensans_semibold"
+        android:textSize="@dimen/login_txt_size"
+
+        />
+
+
+
+
+
+           <TextView
+               android:fontFamily="@font/opensans_semibold"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/txtLoginRegistro"
+               android:layout_marginTop="@dimen/login_edt_top"
+               android:textColor="@color/txtRegistro"
+               android:textSize="@dimen/login_txt_size"
+               android:contextClickable="true"
+
+               android:id="@+id/txtRegistrar"
+               />
+
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>

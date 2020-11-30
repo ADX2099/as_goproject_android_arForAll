@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ProductScanner</string>
+    <string name="txtMain">Aún no tienes artículos escaneados</string>
+    <string name="txtBtnMain">ESCANEAR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lblBtnLogin">Ingresar</string>
+    <string name="txtLoginRegistro">Registrar</string>
+    <string name="txtLoginRecuperar">Recuperar contraseña</string>
+    <string name="hintNombre">Nombre</string>
+    <string name="hintApellido">Apellidos</string>
+    <string name="hintTelefono">Telefono</string>
+    <string name="hintEmail">Email</string>
+    <string name="aceptarbtnalert">Aceptar</string>
+    <string name="cancelarbtnalert">Cancelar</string>
+    <string name="lbl_msg_fields">Verifique los datos</string>
+    <string name="lbl_msg_no_data_products">No hay productos disponibles para la marca seleccionada</string>
+
+    <string name="msg_user_null">Ingrese un usuario válido</string>
+    <string name="msg_pwd_null">Ingrese una contraseña válida</string>
+    <string name="msg_registro_exitoso">Espera un EMAIL para confimar tu registro</string>
+    <string name="hintPwd">Password</string>
+
+
+    <string name="donde_comprar">¿Dónde quieres comprar?</string>
+    <string name="walmart">WALMART</string>
+    <string name="soriana">SORIANA</string>
+    <string name="sumesa">SUMESA</string>
+    <string name="chedraui">CHEDRAUI</string>
+    <string name="fcm_token">FCM Token: %s</string>
+    <string name="lbl_endPurchase">Su compra se está procesando, en breve recibirá notificación del estado de su compra.</string>
+
+</resources>

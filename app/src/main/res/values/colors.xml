@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bck">#F44336</color>
+    <color name="txtColor">#FFFFFF</color>
+    <color name="txtTitulos">#D32F2F</color>
+    <color name="bckClaro">#FFCDD2</color>
+    <color name="txtSecundario">#9E9E9E</color>
+    <color name="txtTerciario">#212121</color>
+    <color name="txtAColor">#F2FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="menugray">#787878</color>
+    <color name="line_gray">#cccaca</color>
+    <color name="color_text_title">#353535</color>
+
+    <color name="transparent">#0000ffff</color>
+
+    <color name="color_text_item_title">#353B50</color>
+    <color name="color_text_item_precio1">#929292</color>
+    <color name="color_text_item_precio2">#D0021B</color>
+
+
+    <color name="btnInicial">#C23023</color>
+    <color name="btnFinal">#821919</color>
+    <color name="bckGral">#FFFFFF</color>
+    <color name="stroke">#D8D8D8</color>
+    <color name="txtRegistro">#606060</color>
+    <color name="gris_fondo">#f2f2f2</color>
+    <color name="red_price">#B02920</color>
+    <color name="black">#000000</color>
+
+
+</resources>

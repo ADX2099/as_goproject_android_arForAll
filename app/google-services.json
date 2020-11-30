@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "52090430536",
+    "firebase_url": "https://alphago-5de90.firebaseio.com",
+    "project_id": "alphago-5de90",
+    "storage_bucket": "alphago-5de90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52090430536:android:2cf12959e4b6f5c9",
+        "android_client_info": {
+          "package_name": "com.alpha.productscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52090430536-lib6dop5svt887ji8aj4t2erfp68i61p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfN8bUS6KV7e5WxZM53esZjTg0O2JKE1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52090430536-lib6dop5svt887ji8aj4t2erfp68i61p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "52090430536-vv3bfvo74ek49hd3s1b6a73s5ifr5mnj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alphasoluciones.go"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52090430536:android:a71e257cb287158a",
+        "android_client_info": {
+          "package_name": "com.alphasoluciones.go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52090430536-lib6dop5svt887ji8aj4t2erfp68i61p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfN8bUS6KV7e5WxZM53esZjTg0O2JKE1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52090430536-lib6dop5svt887ji8aj4t2erfp68i61p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "52090430536-vv3bfvo74ek49hd3s1b6a73s5ifr5mnj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alphasoluciones.go"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
